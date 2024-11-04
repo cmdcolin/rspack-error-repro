@@ -1,3 +1,2 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import { createViewState } from "@jbrowse/react-circular-genome-view";
+createViewState();
